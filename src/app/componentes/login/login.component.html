@@ -1,0 +1,5 @@
+nombre <input type="text" [(ngModel)]="usuario.nombre"><br>
+clave <input type="text" [(ngModel)]="usuario.clave"><br>
+<button (click)="ingresar()">Ingresar</button>
+
+<app-bienvenido *ngIf="ingreso"></app-bienvenido>
